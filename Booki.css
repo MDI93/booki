@@ -1,0 +1,96 @@
+/* The whole booki website */
+
+body
+{
+	margin: 0;
+	font-family: "raleway", sans-serif;
+	min-width: 992px;
+	box-sizing: border-box;
+}
+
+/* Header booki */
+
+nav
+{
+	margin: 10px 25px 0 25px;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img
+{
+
+	width: 60px;
+	height: 30px;
+}
+
+#header
+{
+	text-decoration: none;
+}	
+
+nav ul
+{
+	height: 20px;
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+}
+
+ul:hover
+{
+	text-decoration: overline solid #0065FC;
+}
+nav li
+{
+	margin: initial;
+	margin-right: 20px;
+	margin-left: 30px;
+	opacity: 60%;
+	font-size: 12px;
+	height: 25px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #0065FC;
+}
+
+/* Body Section 1 Booki */
+
+body section
+{
+	margin: 20px;
+}
+
+h1
+{
+	font-size: 18px;
+}
+
+p
+{
+	font-size: 12px;
+	opacity: 50%;
+}
+
+#rechercher, input, div img
+{
+	align-content: center;
+	height: 35px;
+	border-radius: 10px;
+	margin: 0;
+}
+
+#rechercher, input
+{
+	padding-top: 0;
+}
+
