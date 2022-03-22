@@ -62,6 +62,7 @@ li
 
 a
 {
+	font-size: 12px;
 	text-decoration: none;
 }
 
@@ -90,16 +91,13 @@ p
 	opacity: 50%;
 }
 
-#rechercher, input, div img
+#location /* Location block */
 {
-	align-content: center;
-	height: 35px;
-	border-radius: 10px;
-	margin: 0;
+	display: flex;
+	border: none;
+	height: 30px;
+	width: 40px;
 }
 
-#rechercher, input
-{
-	padding-top: 0;
-}
+
 
