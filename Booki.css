@@ -87,7 +87,7 @@ h1
 p
 {
 	margin-top: 3px;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 	font-size: 10px;
 	opacity: 50%;
 }
@@ -149,7 +149,7 @@ button
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 15px 0 10px 0;
+	margin: 15px 0 8px 0;
 }
 
 .filter
@@ -177,22 +177,30 @@ button
 	padding-right: 10px;
 }
 
-#info
+.info
 {
-	display: flex;
+	width: 30%;
+	display: inline-flex;
 	justify-content: space-between;
 	height: 20px;
 	max-width: 270px;
 }
-#info i
+
+.info i
 {
-	font-size: 10px;
-	padding: 5px;
-	border-radius: 100px;
+	font-size: 8px;
+	width: 7px;
+	height: 7px;
 	color: #0065FC;
 	border: solid 1px #DEEBFF;
 	background-color: white;
-	flex-wrap: nowrap;
+	border-radius: 15px 15px;
+	padding: 2px;
+}
+
+.info p
+{
+	align-items: center;
 }
 
 /* Section pictures articles */
@@ -200,28 +208,69 @@ button
 #accommodation
 {
 	border: none;
-	width: 60%;
-	height: 400px;
+	width: 40%;
+	min-width: 40%;
+	height: 300px;
 	background-color: #F2F2F2;
-
-	margin-top: 30px;
+	border-radius: 10px 10px;
+	margin-top: 20px;
 	margin-bottom: 15px;
-	padding-left: 5px;
+	padding: 25px;
 }
 
-.places
+#places1
 {
-	width: 70px;
+	display: inline-flex;
+	justify-items: space-between;
+	width: 38%;
 	height: 40px;
+	min-width: 38%;
 }
 
-.places img
+#places2
 {
-	width: 60px;
-	height: 35px;
+	margin-top: 60px;
+}
+
+#places1 img, #places2 img
+{
+	width: 150px;
+	height: 80px;
+	max-height: 80px;
+	object-fit: 30px;
+}
+
+#places1 div, #places2 div 
+{
+	margin: 18px;
+	margin-top: 0px;
+	margin-left: 0;
+	border-radius: 10px 10px;
+	width: 150px;
+	height: 120px;
+	border: solid white 2px;
+	background-color: white;
+}
+
+#places1 div h3, #places2 div h3
+{
+	margin-left: 8px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#places1 div p, #places2 div p
+{
+	margin-left: 8px;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 h3
 {
 	font-size: 10px;
 }
+
+
+/* Aside most popular */
+
