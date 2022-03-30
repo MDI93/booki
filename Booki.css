@@ -342,7 +342,7 @@ div .room
 #popular
 {
 	width: 320px;
-	height: auto;
+	height: 100%;
 	margin-top: 0;
 	margin-right: 20px;
 	background-color: #F2F2F2;
@@ -358,7 +358,7 @@ div .room
 
 #popular span i
 {
-	color: black;
+	color: #F2F2F2;
 }
 
 .popularplace
@@ -366,7 +366,7 @@ div .room
 	display: flex;
 	margin-bottom: 25px;
 	width: auto;
-	height: auto;
+	height: 100%;
 	background-color: white;
 	border: solid white 4px;
 	border-radius: 10px;
@@ -392,6 +392,7 @@ div .room
 
 .popularinfo
 {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-items: space-between;
@@ -407,6 +408,8 @@ div .room
 .popularinfo .stars
 {
 	margin-left: 0;
+	position: absolute;
+	bottom: 0;
 }
 
 .popularinfo i
@@ -447,19 +450,22 @@ div .room
 	margin: 20px;
 	margin-left: 0;
 	margin-bottom: 30px;
+
 }
 
 #activity
 {
 	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
 }
 
-.activity1
+.activity1 /* Vieux port ; Parc National des Calanques */
 {
-	height: 340px;
-	width: 240px;
-	margin-right: 30px;
+	height: 380px;
+	width: 280px;
 	border-radius: 10px;
+	padding-left: 0;
 	background-color: white;
 	border: white;
 	box-shadow: 0px 2px 20px #999;
@@ -469,8 +475,8 @@ div .room
 
 .activity1 img
 {
-	height: 300px;
-	width: 240px;
+	height: 90%;
+	width: 100%;
 	border-radius: 10px 10px 0 0;
 	object-fit: 400px;
 }
@@ -482,6 +488,84 @@ div .room
 }
 
 .activity1:hover
+{
+	cursor:pointer;
+  	transform:scale(1.08);
+}
+
+#activity23 /* Fort de Pomègues ; Iles du Frioul */
+{
+	height: 380px;
+	width: 280px;
+}
+
+#activity2
+{
+	height: 70%;
+	width: 280px;
+	border-radius: 10px 10px;
+	background-color: white;
+	box-shadow: 0px 2px 20px #999;
+	overflow: hidden;
+  	transition:transform .4s;
+}
+
+#activity2 img
+{
+	height: 90%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+#activity3
+{
+	height: 30%;
+	width: 280px;
+	border-radius: 10px 10px;
+	background-color: white;
+	box-shadow: 0px 2px 20px #999;
+	overflow: hidden;
+  	transition:transform .4s;
+}
+
+#activity3 img
+{
+	height: 90%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+#activity23 h2
+{
+	padding-left: 15px;
+	height: 10%;
+}
+
+#activity2:hover , #activity3:hover
+{
+	cursor:pointer;
+  	transform:scale(1.08);
+}
+
+.activity45 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
+{
+	height: 380p;
+	width: 280px;
+	border-radius: 10px 10px;
+	background-color: white;
+	box-shadow: 0px 2px 20px #999;
+	overflow: hidden;
+  	transition:transform .4s;
+}
+
+#activity45 img
+{
+	height: 90%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.activity45:hover
 {
 	cursor:pointer;
   	transform:scale(1.08);
