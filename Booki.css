@@ -556,11 +556,12 @@ div .room
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 380px;
 }
 
-.activity45 
+#activity4 , #activity5 
 {
-	height: 46%;
+	height: 45%;
 	width: 280px;
 	border-radius: 10px 10px;
 	background-color: white;
@@ -569,19 +570,19 @@ div .room
   	transition:transform .4s;
 }
 
-.activity45 img
+#activity4 img , #activity5 img
 {
 	height: 80%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
 }
 
-.activity45 h2
+#activity4 h2 , #activity5 h2
 {
 	padding-left: 15px;
 }
 
-#activity45:hover
+#activity4:hover , #activity5:hover
 {
 	cursor:pointer;
   	transform:scale(1.08);
@@ -597,7 +598,7 @@ footer
 
 #footer
 {
-	width: 70%;
+	width: 80%;
 	height: auto;
 	padding: 20px;
 	margin-top: 20px;
