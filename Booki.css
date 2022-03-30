@@ -458,6 +458,7 @@ div .room
 	display: flex;
 	justify-content: space-between;
 	margin-right: 20px;
+	height: 400px;
 }
 
 .activity1 /* Vieux port ; Parc National des Calanques */
@@ -497,11 +498,14 @@ div .room
 {
 	height: 380px;
 	width: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 #activity2
 {
-	height: 70%;
+	height: 55%;
 	width: 280px;
 	border-radius: 10px 10px;
 	background-color: white;
@@ -512,14 +516,14 @@ div .room
 
 #activity2 img
 {
-	height: 90%;
+	height: 80%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
 }
 
 #activity3
 {
-	height: 30%;
+	height: 35%;
 	width: 280px;
 	border-radius: 10px 10px;
 	background-color: white;
@@ -530,7 +534,7 @@ div .room
 
 #activity3 img
 {
-	height: 90%;
+	height: 70%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
 }
@@ -547,9 +551,16 @@ div .room
   	transform:scale(1.08);
 }
 
-.activity45 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
+#activity45 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
 {
-	height: 380p;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.activity45 
+{
+	height: 46%;
 	width: 280px;
 	border-radius: 10px 10px;
 	background-color: white;
@@ -558,14 +569,19 @@ div .room
   	transition:transform .4s;
 }
 
-#activity45 img
+.activity45 img
 {
-	height: 90%;
+	height: 80%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
 }
 
-.activity45:hover
+.activity45 h2
+{
+	padding-left: 15px;
+}
+
+#activity45:hover
 {
 	cursor:pointer;
   	transform:scale(1.08);
