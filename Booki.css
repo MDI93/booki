@@ -396,6 +396,7 @@ div .room
 	display: flex;
 	flex-direction: column;
 	justify-items: space-between;
+	position: relative;
 }
 
 .popularinfo h3
