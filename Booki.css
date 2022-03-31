@@ -4,8 +4,7 @@ body
 {
 	margin: auto;
 	font-family: "raleway", sans-serif;
-	min-width: 992px;
-	max-width: auto;
+	max-width: 1280px;
 	box-sizing: border-box;
 }
 
@@ -30,6 +29,7 @@ header
 
 nav
 {
+	width: auto;
 	height: 70px;
 	display: flex;
 	justify-content: space-between;
@@ -173,13 +173,12 @@ form
 #filter
 {
 	display: inline-flex;
-	font-size: 12px;
 	width: 57%;
-	max-width: 45%;
+	max-width: 48%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 15px 0 8px 0;
+	margin: 15px 0 8px 5Px;
 }
 
 .filter
@@ -191,7 +190,7 @@ form
 	color: #0065FC;
 	align-items: center;
 }
-
+	
 .filter i
 {
 	border-radius: 20px 20px;
@@ -215,7 +214,8 @@ form
 	align-items: center;
 	justify-content: space-between;
 	padding: auto;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	margin-left: 3px;
 }
 
 #info i
@@ -244,7 +244,7 @@ form
 
 #marseille
 {
-	min-width: 992px;
+	width: auto;
 	height: auto;
 	display: flex;
 	justify-content: space-between;
@@ -306,7 +306,7 @@ div .room
 	width: 230px;
 	height: auto;
 	max-height: 120px;
-	object-fit: cover; 
+	object-fit: cover;
 	border-radius: 10px 10px 0 0;
 }
 
@@ -369,10 +369,23 @@ div .room
 	border-radius: 10px;
 }
 
-#popular h1 
+#popularchart
+{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#popularchart h1 
 {
 	margin: 0;
 	width: 50%;
+}
+
+#popularchart ffa-solid fa-chart-line
+{
+	font-weight: bold;
+	font-size: 12px;
 }
 
 #popular span i
@@ -453,7 +466,7 @@ div .room
 {
 	width: 100%;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 40px;
 	display: flex;
 	flex-direction: column;
 }

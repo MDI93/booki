@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px)
+{
+	body
+	{
+		width: auto;
+	}
+
+	nav
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#logo_booki
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	#header li:hover
+	{
+	text-decoration: none;
+	border-bottom: 5px solid #0065FC;
+	border-top: none;
+	}	
+}
