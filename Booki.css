@@ -11,7 +11,13 @@ body
 
 a
 {
+	color: black;
 	text-decoration: none;
+}
+
+a:visited 
+{
+	color: black;
 }
 
 /* Header booki */
@@ -24,7 +30,7 @@ header
 
 nav
 {
-	height: 65px;
+	height: 70px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -32,8 +38,7 @@ nav
 
 #logo_booki
 {
-	padding-top: 25px;
-	width: 50px;
+	width: 60px;
 	height: 30px;
 }
 
@@ -44,19 +49,17 @@ nav
 
 #header ul
 {
-	height: 65px;
+	height: 70px;
 	align-items: center;
 	display: flex;
 	list-style: none;
 	text-decoration: none;
-	padding-top: 25px;
-	padding-right: 25px;
 }
 
 #header li:hover
 {
 	text-decoration: none;
-	border-top: 3px solid #0065FC;
+	border-top: 5px solid #0065FC;
 }	
 
 #header li
@@ -64,9 +67,8 @@ nav
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	opacity: 60%;
 	font-size: 12px;
-	height: 50px;
+	height: 70px;
 	width: 100px;
 }
 
@@ -93,23 +95,27 @@ body section
 
 h1
 {
+	color: black;
 	font-size: 14px;
-	margin-top: 15px;
+	font-weight: bold;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
 p
 {
+	color: black;
 	margin-top: 5px;
 	font-size: 10px;
-	opacity: 70%;
 }
 
 /* Section 1 Location */
 
 h2
 {
+	color: black;
 	font-size: 12px;
+	font-weight: bold;
 }
 
 #location 
@@ -132,11 +138,20 @@ h2
 	border-bottom-left-radius: 8px;
 }
 
+form
+{
+	display: flex;
+}
+
 #location input
 {
+	color: black;
+	font-weight: bold;
+	padding-left: 10px;
 	width: 150px;
 	height: 30px;
 	border: 1px solid #F2F2F2;
+
 }
 
 #location button
@@ -187,13 +202,14 @@ h2
 .filter span
 {
 	color: black;
+	font-weight: bold;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 #info
 {
-	width: 270px;
+	width: 280px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -267,7 +283,9 @@ article
 
 h3
 {
+	color: black;
 	font-size: 10px;
+	font-weight: bold;
 }
 
 div .room
