@@ -105,7 +105,7 @@ h1
 p
 {
 	color: black;
-	margin-top: 5px;
+	margin-top: 7px;
 	font-size: 10px;
 }
 
@@ -126,6 +126,7 @@ h2
 	border: none;
 	height: 30px;
 	width: 40px;
+	margin-top: 15px;
 }
 
 #location i
@@ -305,7 +306,7 @@ div .room
 	width: 230px;
 	height: auto;
 	max-height: 120px;
-	object-fit: fill;
+	object-fit: cover; 
 	border-radius: 10px 10px 0 0;
 }
 
@@ -384,7 +385,7 @@ div .room
 	display: flex;
 	margin-bottom: 25px;
 	width: auto;
-	height: 100%;
+	height: 122px;
 	background-color: white;
 	border: solid white 4px;
 	border-radius: 10px;
@@ -406,6 +407,7 @@ div .room
 	object-fit: 130px;
 	border-radius: 10px 0 0 10px;
 	margin-right: 15px;
+	object-fit: cover;
 }
 
 .popularinfo
@@ -498,7 +500,7 @@ div .room
 	height: 90%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
-	object-fit: 400px;
+	object-fit: cover;
 }
 
 .activity1 h2
@@ -538,6 +540,7 @@ div .room
 	height: 80%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
+	object-fit: cover;
 }
 
 #activity3
@@ -556,6 +559,7 @@ div .room
 	height: 70%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
+	object-fit: cover;
 }
 
 #activity23 h2
@@ -594,6 +598,7 @@ div .room
 	height: 80%;
 	width: 100%;
 	border-radius: 10px 10px 0 0;
+	object-fit: cover;
 }
 
 #activity4 h2 , #activity5 h2
