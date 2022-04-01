@@ -7,8 +7,8 @@
 
 	#logo_booki
 	{
-		width: 80px;
-		height: 50px;
+		width: 120px;
+		height: auto;
 	}
 
 	#header ul
@@ -17,6 +17,17 @@
 		flex-direction: column;
 		list-style: none;
 		text-decoration: none;
+	}
+
+	#header li
+	{
+		width: 140px;
+	}
+
+
+	#header a
+	{
+		font-size: 15px;
 	}
 
 	#header li:hover
@@ -29,6 +40,7 @@
 	h1
 	{
 		font-size: 18px;
+		margin-left: 20px;
 	}
 
 	p
@@ -39,24 +51,24 @@
 		font-size: 12px;
 	}
 
-	#filter
+	#filter /* Filter part */
 	{
-		width: 80%;
+		width: 85%;
 		max-width: 992px;
 	}	
 
 	.filter
 	{
 		width: auto;
-		display: flex;
 		font-size: 15px;
-		border-radius: 30px;
-		border: 2px solid #DEEBFF;
-		color: #0065FC;
-		align-items: center;
 	}
 
-	#marseille
+	#info
+	{
+		width: 46%;
+	}
+
+	#marseille /* Rooms */
 	{
 		width: 100%;
 		height: auto;
@@ -65,12 +77,10 @@
 		justify-content: space-between;
 	}
 
-	#popular
+	#popular /* Most Popular */
 	{
-		width: 100%;
-		height: 100%;
-		margin-top: 0;
-		margin-right: 20px;
+		width: auto;
+		height: auto;
 		margin-bottom: 20px;
 	}
 	
@@ -83,7 +93,7 @@
 	.popularplace
 	{
 		width: 30%;
-		max-height: auto;
+		max-height: 110px;
 	}
 
 	.popularplace img
@@ -96,9 +106,10 @@
 		width: auto;
 	}
 
-	#accommodation
+	#accommodation /* Room place */
 	{
 		width: auto;
+		height: auto;
 	}
 
 	div .room
@@ -111,3 +122,58 @@
 		width: 100%;
 	}
 
+	#activity /* Activities */
+	{
+		height: 645px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 10px;
+	}
+
+	#activity1 , #activity4/* Vieux port ; Parc National des Calanques */
+	{
+		height: 40%%;
+		width: 25%;
+	}
+
+	#activity23 /* Fort de Pomègues ; Iles du Frioul */
+	{
+		width: 30%;
+		display: flex;
+	}
+
+	#activity2 , #activity3
+	{
+		height: 45%;
+		width: auto;	
+	}
+
+	#activity3 img
+	{
+		height: 80%;
+	}
+
+	#activity56 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
+	{
+		margin-top: 30px;
+		flex-direction: row;
+		justify-content: space-around;
+		width: 90%;
+	}
+
+	#activity5 , #activity6 
+	{
+		height: 50	%;
+		width: 38%;
+		border-radius: 10px 10px;
+		background-color: white;
+		box-shadow: 0px 2px 20px #999;
+		overflow: hidden;
+	  	transition:transform .4s;
+	}
+
+	#footer /* Footer */
+	{
+		width: auto;
+		justify-content: space-around;
+	}

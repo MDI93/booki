@@ -67,7 +67,6 @@ nav
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 12px;
 	height: 70px;
 	width: 100px;
 }
@@ -86,7 +85,7 @@ a:hover
 	color: #0065FC;
 }
 
-/* Body Section 1 Booki */
+/* Body section 1 */
 
 body section
 {
@@ -109,7 +108,7 @@ p
 	font-size: 10px;
 }
 
-/* Section 1 Location */
+/* Search Location */
 
 h2
 {
@@ -207,12 +206,13 @@ form
 	padding-right: 10px;
 }
 
+/* Information point */
+
 #info
 {
 	width: 280px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	padding: auto;
 	margin-bottom: 10px;
 	margin-left: 3px;
@@ -227,6 +227,7 @@ form
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	margin-right: 5px;
 	padding-top: 2px;
 	border: solid #F2F2F2 1px;
 	border-radius: 10px;
@@ -240,7 +241,7 @@ form
 	align-items: center;
 }
 
-/* Section pictures articles */
+/* Section rooms pictures articles */
 
 #marseille
 {
@@ -260,7 +261,7 @@ form
 	border-radius: 10px 10px;
 	padding: 30px;
 	padding-bottom: 20px;
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
 #accommodation h1
@@ -291,7 +292,7 @@ h3
 
 div .room
 {
-	width: 230px;
+	width: 30%;
 	height: auto;
 	background-color: white;
 	border: solid white 4px;
@@ -343,13 +344,6 @@ div .room
 	color: #F2F2F2;
 }
 
-.room h2
-{
-	display: flex;
-	flex-wrap: nowrap;
-	margin-bottom: 0;
-}
-
 .room:hover
 {
 	cursor:pointer;
@@ -361,7 +355,7 @@ div .room
 #popular
 {
 	width: 320px;
-	height: 100%;
+	height: 500px;
 	margin-top: 0;
 	margin-right: 20px;
 	background-color: #F2F2F2;
@@ -415,7 +409,7 @@ div .room
 
 .popularplace img
 {
-	width: 150px;
+	width: 40%;
 	height: 122px;
 	object-fit: 130px;
 	border-radius: 10px 0 0 10px;
@@ -460,7 +454,7 @@ div .room
 	color: #F2F2F2;
 }
 
-/* Activities */
+/* Marseille Activities */
 
 #activities
 {
@@ -484,7 +478,6 @@ div .room
 	margin: 20px;
 	margin-left: 0;
 	margin-bottom: 30px;
-
 }
 
 #activity
@@ -495,7 +488,7 @@ div .room
 	height: 400px;
 }
 
-.activity1 /* Vieux port ; Parc National des Calanques */
+#activity1 , #activity4 /* Vieux port (1) ; Parc National des Calanques (4) */
 {
 	height: 380px;
 	width: 280px;
@@ -508,7 +501,7 @@ div .room
   	transition:transform .4s;
 }
 
-.activity1 img
+#activity1 img , #activity4 img
 {
 	height: 90%;
 	width: 100%;
@@ -516,19 +509,19 @@ div .room
 	object-fit: cover;
 }
 
-.activity1 h2
+#activity1 h2 , #activity4 h2
 {
 	padding-left: 15px;
 	margin-bottom: 20px;
 }
 
-.activity1:hover
+#activity1:hover , #activity4:hover
 {
 	cursor:pointer;
   	transform:scale(1.08);
 }
 
-#activity23 /* Fort de Pomègues ; Iles du Frioul */
+#activity23 /* Fort de Pomègues (2) ; Iles du Frioul (3) */
 {
 	height: 380px;
 	width: 280px;
@@ -537,7 +530,7 @@ div .room
 	justify-content: space-between;
 }
 
-#activity2
+#activity2 /* Fort de Pomègues */
 {
 	height: 55%;
 	width: 280px;
@@ -548,7 +541,7 @@ div .room
   	transition:transform .4s;
 }
 
-#activity2 img
+#activity2 img 
 {
 	height: 80%;
 	width: 100%;
@@ -556,7 +549,7 @@ div .room
 	object-fit: cover;
 }
 
-#activity3
+#activity3 /* Iles du Frioul */
 {
 	height: 35%;
 	width: 280px;
@@ -587,7 +580,7 @@ div .room
   	transform:scale(1.08);
 }
 
-#activity45 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
+#activity56 /* Notre-Dame-de-la-Garde (5) ; Parc Longchamp (6) */
 {
 	display: flex;
 	flex-direction: column;
@@ -595,7 +588,7 @@ div .room
 	height: 380px;
 }
 
-#activity4 , #activity5 
+#activity5 , #activity6 
 {
 	height: 45%;
 	width: 280px;
@@ -606,7 +599,7 @@ div .room
   	transition:transform .4s;
 }
 
-#activity4 img , #activity5 img
+#activity5 img , #activity6 img
 {
 	height: 80%;
 	width: 100%;
@@ -614,12 +607,12 @@ div .room
 	object-fit: cover;
 }
 
-#activity4 h2 , #activity5 h2
+#activity5 h2 , #activity6 h2
 {
 	padding-left: 15px;
 }
 
-#activity4:hover , #activity5:hover
+#activity5:hover , #activity6:hover
 {
 	cursor:pointer;
   	transform:scale(1.08);
@@ -639,7 +632,7 @@ footer
 	height: auto;
 	padding: 20px;
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 40px;
 	display: flex;
 	justify-content: space-between;
 }

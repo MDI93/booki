@@ -5,19 +5,25 @@
 		width: auto;
 	}
 
-	nav
+
+	header
 	{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		height: auto;
+	}
+
+	nav
+	{
+		width: auto;
+		flex-direction: column;
 	}
 
 	#logo_booki
 	{
-		display: flex;
-		flex-direction: column;
+		width: 50%;
+		height: auto;
 	}
-
 
 	#header li:hover
 	{
