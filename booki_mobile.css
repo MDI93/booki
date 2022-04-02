@@ -12,6 +12,7 @@
 
 	p
 	{
+		width: 80%;
 		font-size: 15px;
 	}
 
@@ -22,26 +23,183 @@
 		flex-direction: column;
 		justify-content: space-between;
 		height: auto;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	nav
 	{
-		width: auto;
+		width: 100%;
+		height: auto;
 		flex-direction: column;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	#logo_booki
 	{
-		width: 50%;
+		margin-top: 20px;
+		width: 30%;
 		height: auto;
+	}
+
+	#header ul
+	{
+		width: 100%;
+		justify-content: space-around;
+		align-content: center;
+		padding-left: 0;
+	}
+
+	#header li
+	{
+		width: 100%;
 	}
 
 	#header li:hover
 	{
-	text-decoration: none;
-	border-bottom: 5px solid #0065FC;
-	border-top: none;
+		text-decoration: none;
+		border-bottom: 3px solid #0065FC;
+		border-top: none;
+	}	
+
+	#header li a
+	{
+		font-size: 16px;
 	}
+
+	/* Search */
+
+	#search
+	{
+		margin-left: 20px;
+		margin-right: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#search h1
+	{
+		font-size: 22px;
+		width: 90%;
+	}
+
+	#search p
+	{
+		width: auto;
+	}
+
+	#filter
+	{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+	}
+
+	#location
+	{
+	font-size: 15px;
+	align-content: center;
+	height: 45px;
+	width: 100%;
+	margin-top: 15px;
+	padding-left: 25px;
+	}
+
+	#location input
+	{
+		color: black;
+		font-weight: bold;
+		width: 150px;
+		height: 45px;
+		border: 1px solid #F2F2F2;
+	}
+
+	#location button
+	{
+		font-size: 11px;
+		color: white;
+		width: 30%;
+		background-color: #0065FC;
+		opacity: 120%;
+		border: none;
+		border-radius: 8px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0; 
+	}
+
+
+	/* Information point */
+
+	#info
+	{
+		width: auto;
+		padding: auto;
+	}
+
+	#info i
+	{	
+		font-size: 14px;
+		width: 15px;
+		height: 12px;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		margin-right: 5px;
+		padding-top: 2px;
+		border: solid #F2F2F2 1px;
+		border-radius: 10px;
+	}
+
+
+	#marseille /* Rooms */
+	{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+
+	#popular /* Most Popular */
+	{
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+		border-radius: 0	;
+	}
+
+	.popularplace img
+	{
+		max-width: 40%;
+	}
+
+	.popularinfo
+	{
+		width: auto;
+	}
+
+	#accommodation /* Room place */
+	{
+		width: auto;
+		height: auto;
+	}
+
+	.rooms
+	{
+		width: auto;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	div .room
+	{
+		width: auto;
+		height: 25%;
+	}
+
 
 	#activity /* Activities */
 	{

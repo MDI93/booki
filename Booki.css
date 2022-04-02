@@ -151,7 +151,6 @@ form
 	width: 150px;
 	height: 30px;
 	border: 1px solid #F2F2F2;
-
 }
 
 #location button
@@ -174,7 +173,6 @@ form
 	display: inline-flex;
 	width: 57%;
 	max-width: 48%;
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 15px 0 8px 5Px;
