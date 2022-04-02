@@ -172,6 +172,11 @@
 	  	transition:transform .4s;
 	}
 
+	#activity1 , #activity2 , #activity3 ,#activity4 , #activity5 , #activity6
+	{
+		box-shadow: 0px 2px 15px #999;
+	}
+
 	#footer /* Footer */
 	{
 		width: auto;

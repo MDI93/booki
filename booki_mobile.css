@@ -5,11 +5,22 @@
 		width: auto;
 	}
 
+	h2
+	{
+		font-size: 17px;
+	}
+
+	p
+	{
+		font-size: 15px;
+	}
+
 
 	header
 	{
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		height: auto;
 	}
 
@@ -30,5 +41,56 @@
 	text-decoration: none;
 	border-bottom: 5px solid #0065FC;
 	border-top: none;
-	}	
+	}
+
+	#activity /* Activities */
+	{
+		flex-direction: column;
+		height: auto;
+		margin-bottom: 5px;
+	}
+
+	#activity1 , #activity4 /* Vieux port (1) ; Parc National des Calanques (4) */
+	{
+		height: 200px;
+		width: auto;
+	}
+
+	#activity1 img , #activity2 img , #activity3 img ,#activity4 img , #activity5 img , #activity6 img
+	{
+		height: 70%;
+	}
+
+	#activity23 , #activity56 /* Fort de Pomègues (2) ; Iles du Frioul (3) */
+	{
+		height: 420px;
+		width: auto;
+	}
+
+	#activity2 , #activity3 , #activity5 , #activity6
+	{
+		height: 48%;
+		max-height: 200px;
+		width: 100%;
+	}
+
+	#activity1 , #activity2 , #activity3 ,#activity4 , #activity5 , #activity6
+	{
+		box-shadow: 0px 2px 10px #999;
+	}
+
+
+
+
+	#footer /* Footer */
+	{
+		width: auto;
+		flex-direction: column;
+		margin-left: 0;
+	}
+
+	.links
+	{
+		width: 100%;
+	}
 }
