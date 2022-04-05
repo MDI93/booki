@@ -152,7 +152,7 @@
 
 	#activity1 , #activity4/* Vieux port ; Parc National des Calanques */
 	{
-		height: 40%%;
+		height: 40%;
 		width: 25%;
 	}
 
@@ -197,3 +197,5 @@
 		width: auto;
 		justify-content: space-around;
 	}
+
+}
