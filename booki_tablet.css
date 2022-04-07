@@ -55,10 +55,9 @@
 		font-size: 12px;
 	}
 
-	#filter /* Filter part */
+	#groupfilter /* Filter part */
 	{
-		width: 85%;
-		max-width: 992px;
+		width: 100%;
 	}	
 
 	.filter
@@ -103,13 +102,21 @@
 
 	.popularplace img
 	{
-		max-width: 40%;
+		min-width: 40%;
 	}
 
 	.popularinfo
 	{
 		width: auto;
 	}
+
+	.popularinfo h4
+	{
+		font-size: 12px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
 
 	#accommodation /* Room place */
 	{
@@ -137,7 +144,7 @@
 		flex-direction: column;
 	}
 
-	#activities h1
+	#activities h2
 	{
 		padding-left: 0px;
 	}
@@ -152,7 +159,7 @@
 
 	#activity1 , #activity4/* Vieux port ; Parc National des Calanques */
 	{
-		height: 40%;
+		height: 55%;
 		width: 25%;
 	}
 
@@ -170,12 +177,12 @@
 
 	#activity3 img
 	{
-		height: 80%;
+		height: 75%;
 	}
 
 	#activity56 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
 	{
-		margin-top: 30px;
+		margin-top: 20px;
 		flex-direction: row;
 		justify-content: space-around;
 		width: 90%;
