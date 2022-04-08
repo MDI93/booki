@@ -126,15 +126,17 @@ p
 	margin-top: 15px;
 }
 
-#location i
+#location_dot i
 {
+	display: flex;
 	font-size: 15px;
-	min-width: 15px;
-	padding: 10px;
-	padding-left: 15px;
+	height: 45px;
+	width: 50px;
+	align-items: center;
+	justify-content: center;
 	background-color: #F2F2F2;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 form
@@ -145,23 +147,19 @@ form
 #location input
 {
 	color: black;
-	font-weight: bold;
-	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 15px;
 	width: 180px;
-	height: 35px;
+	height: 45px;
 	border: 1px solid #F2F2F2;
-}
-
-#research::placeholder
-{
-	opacity: 1;
 }
 
 #location button
 {
 	font-size: 14px;
 	color: white;
-	height: 35px;
+	height: 45px;
 	min-width: 100px;
 	background-color: #0065FC;
 	border: none;
@@ -170,7 +168,7 @@ form
 	border-bottom-left-radius: 0; 
 }
 
-#search_mobile
+#button_mobile i
 {
 	display: none;
 }
@@ -184,6 +182,7 @@ form
 	align-items: center;
 	justify-content: space-between;
 	margin: 15px 0 8px 5Px;
+	margin-top: 25px;
 }
 
 #groupfilter h3
@@ -316,7 +315,7 @@ article
 	justify-content: space-between;
 	width: 100%;
 	height: auto;
-	min-width: 38%;
+	min-width: 40%;
 }
 
 #accommodation h4
@@ -454,7 +453,7 @@ div .room
 .popularinfo
 {
 	height: 100%;
-	max-width: 50%;
+	width: 90%;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -462,13 +461,20 @@ div .room
 
 .popularinfo h4
 {
+	width: 100%;
 	font-size: 14px;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
 
+.popularinfo p
+{
+	margin-top: 0;
+}
+
 .popularinfo .stars
 {
+	width: 100%;
 	margin-left: 0;
 	position: absolute;
 	bottom: 0;
@@ -532,16 +538,17 @@ div .room
 }
 
 #activity1 , #activity4 /* Vieux port (1) ; Parc National des Calanques (4) */
-{
+{	
+	display: block;
 	height: 100%;
-	width: 260px;
+	width: 240px;
 	border-radius: 20px;
 	padding-left: 0;
 	background-color: white;
 	border: white;
 	box-shadow: 0px 2px 20px #999;
-	overflow: hidden;
   	transition:transform .4s;
+  	overflow: hidden;
 }
 
 #activity1 img , #activity4 img
@@ -550,10 +557,12 @@ div .room
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
+	object-position: 55%;
 }
 
 #activity1 h3 , #activity4 h3
 {
+	margin-top: 5px;
 	padding-left: 15px;
 	margin-bottom: 20px;
 }
@@ -565,7 +574,8 @@ div .room
 }
 
 #activity23 /* Fort de Pomègues (2) ; Iles du Frioul (3) */
-{
+{	
+	display: block;
 	height: 100%;
 	width: 280px;
 	display: flex;
@@ -590,10 +600,11 @@ div .room
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
+	object-position: 60%;
 }
 
 #activity3 /* Iles du Frioul */
-{
+{	
 	height: 35%;
 	width: 280px;
 	border-radius: 20px;
@@ -608,11 +619,12 @@ div .room
 	height: 72%;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
-	object-fit: cover;
+	object-position: 40%;
 }
 
 #activity23 h3
-{
+{	
+	margin-top: 5px;
 	padding-left: 15px;
 	height: 10%;
 }
@@ -645,14 +657,15 @@ div .room
 
 #activity5 img , #activity6 img
 {
-	height: 80%;
+	height: 78%;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 }
 
 #activity5 h3 , #activity6 h3
-{
+{	
+	margin-top: 5px;
 	padding-left: 15px;
 }
 
