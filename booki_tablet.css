@@ -142,6 +142,7 @@
 		margin-right: 0px;
 		display: flex;
 		flex-direction: column;
+		height: 800px;
 	}
 
 	#activities h2
@@ -151,33 +152,40 @@
 
 	#activity 
 	{
-		height: 645px;
+		width: auto;
 		flex-wrap: wrap;
 		justify-content: space-around;
 		margin-top: 10px;
+		margin-bottom: 30px;
 	}
 
 	#activity1 , #activity4/* Vieux port ; Parc National des Calanques */
 	{
-		height: 55%;
-		width: 25%;
+		height: 92%;
+		width: 30%;
 	}
 
 	#activity23 /* Fort de Pomègues ; Iles du Frioul */
 	{
 		width: 30%;
+		height: 92%;
 		display: flex;
 	}
 
 	#activity2 , #activity3
 	{
-		height: 45%;
+		height: 48%;
 		width: auto;	
+	}
+
+	#activity2 img
+	{
+		height: 71%;
 	}
 
 	#activity3 img
 	{
-		height: 75%;
+		height: 71%;
 	}
 
 	#activity56 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
@@ -191,12 +199,17 @@
 	#activity5 , #activity6 
 	{
 		height: 50%;
-		width: 38%;
+		width: 45%;
 	}
 
 	#activity1 , #activity2 , #activity3 ,#activity4 , #activity5 , #activity6
 	{
-		box-shadow: 0px 2px 15px #999;
+		box-shadow: 0px 1px 10px #999;
+	}
+
+	#activity1 h3, #activity2 h3, #activity3 h3, #activity4 h3, #activity5 h3 , #activity6 h3
+	{
+		font-size: 15px;
 	}
 
 	#footer /* Footer */

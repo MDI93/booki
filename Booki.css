@@ -331,7 +331,7 @@ div .room
 	background-color: white;
 	border: solid white 4px;
 	border-radius: 20px;
-	box-shadow: 0px 2px 20px #999;
+	box-shadow: 0px 1px 10px #999;
 	overflow: hidden;
   	transition:transform .4s;
 }
@@ -429,7 +429,7 @@ div .room
 	background-color: white;
 	border: solid white 4px;
 	border-radius: 20px;
-	box-shadow: 0px 2px 20px #999;
+	box-shadow: 0px 1px 10px #999;
 	overflow: hidden;
   	transition:transform .4s;
 }
@@ -511,17 +511,12 @@ div .room
 {
 	height: 20px;
 	font-size: 18px;
-	margin-bottom: 20px;
-}
-
-#activities h3
-{
-	font-size: 14px;
+	margin-bottom: 25px;
 }
 
 .activities
 {
-	height: 380px;
+	height: 450px;
 	width: 240px;
 	margin: 20px;
 	margin-left: 0;
@@ -533,109 +528,204 @@ div .room
 	display: flex;
 	justify-content: space-between;
 	margin-right: 20px;
-	height: 360px;
+	height: 430px;
 	margin-bottom: 30px;
 }
 
-#activity1 , #activity4 /* Vieux port (1) ; Parc National des Calanques (4) */
-{	
-	display: block;
-	height: 100%;
-	width: 240px;
-	border-radius: 20px;
-	padding-left: 0;
-	background-color: white;
-	border: white;
-	box-shadow: 0px 2px 20px #999;
-  	transition:transform .4s;
-  	overflow: hidden;
+#activity a
+{
+	color: black;
+	text-decoration: none;
 }
 
-#activity1 img , #activity4 img
+/* Vieux port (1) */
+
+#activity1
 {
-	height: 90%;
+	height: 430px;
+	width: 280px;
+	box-shadow: 0px 1px 10px #999;
+  	transition:transform .4s;
+	overflow: hidden;
+	position: relative;
+	border-radius: 20px 20px;
+}
+
+#activity1_img 
+{	
+	height: 80%;
+	width: 280px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 1px 10px #999;
+  	transition:transform .4s;
+}
+
+#activity1_img img
+{
+	height: 430px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
-	object-position: 55%;
+	object-position: 50% 90%;
+	margin-bottom: 0px;
 }
 
-#activity1 h3 , #activity4 h3
+#activity1_title
 {
-	margin-top: 5px;
-	padding-left: 15px;
-	margin-bottom: 20px;
+	background-color: white;
+	height: 12%;
+	width: 100%;
+  	margin-top: 0px;
+  	position: absolute;
+  	bottom: 0px;
 }
 
-#activity1:hover , #activity4:hover
-{
-	cursor:pointer;
-  	transform:scale(1.08);
-}
+/* Fort de Pomègues (2) ; Iles du Frioul (3) */
 
-#activity23 /* Fort de Pomègues (2) ; Iles du Frioul (3) */
+#activity23 
 {	
-	display: block;
-	height: 100%;
-	width: 280px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 100%;
+	width: 280px;
 }
 
-#activity2 /* Fort de Pomègues */
+/* Fort de Pomègues */
+
+#activity2 
 {
 	height: 55%;
 	width: 280px;
 	border-radius: 20px;
 	background-color: white;
-	box-shadow: 0px 2px 20px #999;
+	box-shadow: 0px 1px 10px #999;
 	overflow: hidden;
+  	transition:transform .4s;
+  	position: relative;
+}
+
+#activity2_img 
+{	
+	height: 250px;
+	width: 280px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 1px 10px #999;
   	transition:transform .4s;
 }
 
-#activity2 img 
+#activity2_img img
 {
-	height: 82%;
-	width: 100%;
+	height: 190px;
+	width: 280px;
 	border-radius: 20px 20px 0 0;
-	object-fit: cover;
-	object-position: 60%;
+	object-fit: cover;	
+	object-position: 100% 40%;
 }
 
-#activity3 /* Iles du Frioul */
+#activity2_title
+{
+	background-color: white;
+	height: 23%;
+	width: 100%;
+  	margin-top: 0px;
+  	position: absolute;
+  	bottom: 0px;
+}
+
+/* Iles du Frioul */
+
+#activity3 
 {	
 	height: 35%;
 	width: 280px;
 	border-radius: 20px;
 	background-color: white;
-	box-shadow: 0px 2px 20px #999;
+	box-shadow: 0px 1px 10px #999;
 	overflow: hidden;
+  	transition:transform .4s;
+  	position: relative;
+}
+
+#activity3_img 
+{	
+	height: 140px;
+	width: 280px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 1px 10px #999;
   	transition:transform .4s;
 }
 
-#activity3 img
+#activity3_img img
 {
-	height: 72%;
+	height: 130px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
-	object-position: 40%;
+	object-fit: cover;	
+	object-position: 100% 33%;
+	margin-bottom: 0px;
 }
 
-#activity23 h3
-{	
-	margin-top: 5px;
-	padding-left: 15px;
-	height: 10%;
-}
-
-#activity2:hover , #activity3:hover
+#activity3_title
 {
-	cursor:pointer;
-  	transform:scale(1.08);
+	background-color: white;
+	height: 34%;
+	width: 100%;
+  	margin-top: 0px;
+  	position: absolute;
+  	bottom: 0px;
 }
 
-#activity56 /* Notre-Dame-de-la-Garde (5) ; Parc Longchamp (6) */
+/* Parc National des Calanques (4) */
+
+#activity4
+{
+	height: 430px;
+	width: 280px;
+	box-shadow: 0px 1px 10px #999;
+  	transition:transform .4s;
+	overflow: hidden;
+	position: relative;
+	border-radius: 20px 20px;
+}
+
+#activity4_img 
+{	
+	height: 80%;
+	width: 280px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 1px 10px #999;
+  	transition:transform .4s;
+}
+
+#activity4_img img
+{
+	height: 430px;
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+	object-position: 50% 90%;
+	margin-bottom: 0px;
+	filter: brightness(140%);
+}
+
+#activity4_title
+{
+	background-color: white;
+	height: 12%;
+	width: 100%;
+  	margin-top: 0px;
+  	position: absolute;
+  	bottom: 0px;
+}
+
+/* Notre-Dame-de-la-Garde (5) ; Parc Longchamp (6) */
+
+#activity56 
 {
 	display: flex;
 	flex-direction: column;
@@ -649,27 +739,50 @@ div .room
 	width: 280px;
 	border-radius: 20px;
 	background-color: white;
-	box-shadow: 0px 2px 20px #999;
+	box-shadow: 0px 1px 10px #999;
 	overflow: hidden;
   	transition:transform .4s;
   	justify-content: space-between;
+  	position: relative;
 }
 
-#activity5 img , #activity6 img
-{
-	height: 78%;
-	width: 100%;
-	border-radius: 20px 20px 0 0;
-	object-fit: cover;
-}
 
-#activity5 h3 , #activity6 h3
+#activity5_img, #activity6_img 
 {	
-	margin-top: 5px;
+	height: 200px;
+	width: 280px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 0px 1px 10px #999;
+  	transition:transform .4s;
+}
+
+#activity5_img img, #activity6_img img
+{
+	height: 200px;
+	width: 280px;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;	
+	object-position: 100% 38z%;
+}
+
+#activity5_title, #activity6_title
+{
+	background-color: white;
+	height: 26%;
+	width: 100%;
+  	margin-top: 0px;
+  	position: absolute;
+  	bottom: 0px;
+}
+
+#activity1 h3, #activity2 h3, #activity3 h3, #activity4 h3, #activity5 h3 , #activity6 h3
+{
+	font-size: 16px;
 	padding-left: 15px;
 }
 
-#activity5:hover , #activity6:hover
+#activity1:hover, #activity2:hover , #activity3:hover, #activity4:hover, #activity5:hover, #activity6:hover
 {
 	cursor:pointer;
   	transform:scale(1.08);
