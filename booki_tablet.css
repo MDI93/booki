@@ -164,16 +164,22 @@
 		margin-bottom: 30px;
 	}
 
+	#activity a
+	{
+		width: auto;
+	}
+
 	/* Vieux port */
 
 	#activity1 , #activity4
 	{
-		width: 30%;
+		max-width: 30%;
 		height: 92%;
 	}
 
 	#activity1_img img, #activity4_img img
 	{
+		width: 110%;
 		object-position: 55%;
 	}
 
@@ -192,11 +198,13 @@
 
 	#activity2_img img
 	{
+		width: 110%;
 		object-position: 100% 55%;
 	}
 
 	#activity3_img img
 	{
+		width: 110%;
 		height: 160px;
 		object-position: 100% 30%;
 	}
@@ -217,13 +225,16 @@
 	#activity5 , #activity6 
 	{
 		height: 50%;
-		width: 45%;
+		width: auto;
 	}
 
 	#activity5_img img, #activity6_img img
 	{
-		height: 220px;
-		width: 320px;
+		height: 200px;
+		width: 100%;
+		border-radius: 20px 20px 0 0;
+		object-fit: cover;	
+		object-position: 100% 38%;
 	}
 
 	#activity5_title, #activity6_title
