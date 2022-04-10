@@ -71,6 +71,11 @@
 		width: 46%;
 	}
 
+	#location ::placeholder
+	{
+		color: black;
+	}
+
 	#marseille /* Rooms */
 	{
 		width: 100%;
@@ -142,7 +147,7 @@
 		margin-right: 0px;
 		display: flex;
 		flex-direction: column;
-		height: 800px;
+		height: 770px;
 	}
 
 	#activities h2
@@ -159,10 +164,17 @@
 		margin-bottom: 30px;
 	}
 
-	#activity1 , #activity4/* Vieux port ; Parc National des Calanques */
+	/* Vieux port */
+
+	#activity1 , #activity4
 	{
-		height: 92%;
 		width: 30%;
+		height: 92%;
+	}
+
+	#activity1_img img, #activity4_img img
+	{
+		object-position: 55%;
 	}
 
 	#activity23 /* Fort de Pomègues ; Iles du Frioul */
@@ -178,14 +190,20 @@
 		width: auto;	
 	}
 
-	#activity2 img
+	#activity2_img img
 	{
-		height: 71%;
+		object-position: 100% 55%;
 	}
 
-	#activity3 img
+	#activity3_img img
 	{
-		height: 71%;
+		height: 160px;
+		object-position: 100% 30%;
+	}
+
+	#activity3_title
+	{
+		height: 25%;
 	}
 
 	#activity56 /* Notre-Dame-de-la-Garde ; Parc Longchamp */
@@ -200,6 +218,18 @@
 	{
 		height: 50%;
 		width: 45%;
+	}
+
+	#activity5_img img, #activity6_img img
+	{
+		height: 220px;
+		width: 320px;
+	}
+
+	#activity5_title, #activity6_title
+	{
+		background-color: white;
+		height: 22%;
 	}
 
 	#activity1 , #activity2 , #activity3 ,#activity4 , #activity5 , #activity6
