@@ -4,7 +4,6 @@ body
 {
 	margin: auto;
 	font-family: "raleway", sans-serif;
-	max-width: 1280px;
 	box-sizing: border-box;
 }
 
@@ -525,21 +524,13 @@ div .room
 	margin-bottom: 25px;
 }
 
-.activities
-{
-	height: 450px;
-	width: 240px;
-	margin: 20px;
-	margin-left: 0;
-	margin-bottom: 30px;
-}
-
 #activity
 {
 	display: flex;
 	justify-content: space-between;
 	margin-right: 20px;
 	height: 430px;
+	width: auto;
 	margin-bottom: 30px;
 }
 
@@ -554,7 +545,7 @@ div .room
 #activity1
 {
 	height: 430px;
-	width: 280px;
+	width: 23%;
 	box-shadow: 0px 1px 10px #999;
   	transition:transform .4s;
 	overflow: hidden;
@@ -565,7 +556,7 @@ div .room
 #activity1_img 
 {	
 	height: 80%;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -600,7 +591,7 @@ div .room
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100%;
-	width: 280px;
+	width: 23%;
 }
 
 /* Fort de Pomègues */
@@ -608,7 +599,7 @@ div .room
 #activity2 
 {
 	height: 55%;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -620,7 +611,7 @@ div .room
 #activity2_img 
 {	
 	height: 250px;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -630,7 +621,7 @@ div .room
 #activity2_img img
 {
 	height: 190px;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;	
 	object-position: 100% 40%;
@@ -651,7 +642,7 @@ div .room
 #activity3 
 {	
 	height: 35%;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -663,7 +654,7 @@ div .room
 #activity3_img 
 {	
 	height: 140px;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -695,7 +686,7 @@ div .room
 #activity4
 {
 	height: 430px;
-	width: 280px;
+	width: 23%;
 	box-shadow: 0px 1px 10px #999;
   	transition:transform .4s;
 	overflow: hidden;
@@ -706,7 +697,7 @@ div .room
 #activity4_img 
 {	
 	height: 80%;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -742,12 +733,13 @@ div .room
 	flex-direction: column;
 	justify-content: space-between;
 	height: 100%;
+	width: 23%;
 }
 
 #activity5 , #activity6 
 {
 	height: 45%;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -761,7 +753,7 @@ div .room
 #activity5_img, #activity6_img 
 {	
 	height: 200px;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0px 1px 10px #999;
@@ -771,7 +763,7 @@ div .room
 #activity5_img img, #activity6_img img
 {
 	height: 230px;
-	width: 280px;
+	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;	
 	object-position: 100% 38%;

@@ -173,7 +173,7 @@
 
 	#activity1 , #activity4
 	{
-		max-width: 30%;
+		width: 30%;
 		height: 92%;
 	}
 
@@ -225,7 +225,7 @@
 	#activity5 , #activity6 
 	{
 		height: 50%;
-		width: auto;
+		width: 45%;
 	}
 
 	#activity5_img img, #activity6_img img
