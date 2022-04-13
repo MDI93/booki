@@ -182,7 +182,7 @@ form
 #groupfilter
 {
 	display: flex;
-	width: 65%;
+	width: 68%;
 	align-items: center;
 	justify-content: space-between;
 	margin: 15px 0 8px 5Px;
@@ -214,6 +214,7 @@ form
 	color: #0065FC;
 	align-items: center;
 	padding-right: 10px;
+	margin-right: 5px;
 }
 	
 .filter i
@@ -344,6 +345,7 @@ div .room
 {
 	width: 100%;
 	height: auto;
+	min-height: 60%;
 	max-height: 100px;
 	object-fit: cover;
 	border-radius: 20px 20px 0 0;
@@ -624,13 +626,13 @@ div .room
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;	
-	object-position: 100% 40%;
+	object-position: 100% 35%;
 }
 
 #activity2_title
 {
 	background-color: white;
-	height: 23%;
+	height: 22%;
 	width: 100%;
   	margin-top: 0px;
   	position: absolute;
@@ -762,7 +764,7 @@ div .room
 
 #activity5_img img, #activity6_img img
 {
-	height: 230px;
+	height: 200px;
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;	
@@ -781,8 +783,9 @@ div .room
 
 #activity1 h3, #activity2 h3, #activity3 h3, #activity4 h3, #activity5 h3 , #activity6 h3
 {
-	font-size: 16px;
-	padding-left: 15px;
+	font-size: 15px;
+	padding-left: 14px;
+	width: auto;
 }
 
 #activity1:hover, #activity2:hover , #activity3:hover, #activity4:hover, #activity5:hover, #activity6:hover
